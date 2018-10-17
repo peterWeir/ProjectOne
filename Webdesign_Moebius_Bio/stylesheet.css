@@ -1,8 +1,104 @@
-h1,h2,h3,h4,h5,h6{
+.centeredimg{
+    z-index: -1;
+  display: block;
+     margin-left: auto;
+    margin-right: auto;
+      margin-top: 0px;
 
-    font-family: 'sorts Mill Goudy', serif;
+    width: 100%;
 }
 
-p,li{
-    font-family: 'Source Sans Pro', sans-serif;
+
+#bottomimg{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top:0px;
+  width:100%;
+}
+
+.headContainer{
+      position: relative;
+    text-align: center;
+    color: black;
+}
+
+.centeredh1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  font-size: 48px;
+}
+.centeredh2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+
+}
+
+.boxed{
+  position: relative;
+  z-index: 3;
+}
+#boxed2{
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.headerbox {
+  height: 120px;
+  width: 100%;
+  background-color: #555;
+  box-shadow: 0px 0px 30px black;
+
+}
+.fillerbox {
+  position: static;
+  top: 100px;
+  height: 120px;
+  width: 100%;
+  background-color: #555;
+}
+.bodybox {
+  position: relative;
+       margin-left: auto;
+    margin-right: auto;
+  top: 115px;
+  height: 1000px;
+  width: 70%;
+  background-color: #555;
+      box-shadow: 0px 0px 30px black;
+  z-index: 1;
+}
+
+#jean{
+  position: relative;
+  top: 0%;
+}
+#jeanspic{
+  position: relative;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+  top: 2%;
+  width: 30%
+
+}
+#bio{
+  position: absolute;
+  margin-left:20%;
+    margin-right:20%;
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+
+}
+#list{
+  position: ;
+  margin-left:30%;
+    margin-right:30%;
+  margin-top: ;
 }
